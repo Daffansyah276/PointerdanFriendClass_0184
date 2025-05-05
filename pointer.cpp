@@ -3,8 +3,8 @@ using namespace std;
 
 class Dosen{
     public:
-    void tampilnama(){
-        cout << "Namanya adalah " << nama << endl;
+    void tampilNama(){
+        cout << "Namanya adalah " << Nama << endl;
     }
 };
 
@@ -20,12 +20,12 @@ int main(){
     Dosen *pds = &ds;
     pds->nama = "Joko";
     cout << "Alamat memori = " << pds << endl;
-    dsref.tampilnama();
+    dsref.tampilNama();
 
     Dosen *pds = &ds;
     pds->nama = "Reza";
     cout << "Alamat memori = " << pds << endl;
-    pds-> tampilnama();
+    pds-> tampilNama();
 
     int a = 5;
     int b = 3;
