@@ -7,3 +7,8 @@ class Dosen{
         cout << "Namanya adalah " << nama << endl;
     }
 };
+
+class staff {
+    public:
+    int nidn;
+};
