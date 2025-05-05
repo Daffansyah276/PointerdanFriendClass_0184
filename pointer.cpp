@@ -2,17 +2,17 @@
 using namespace std;
 
 class Dosen{
-    public:
+    public: 
+    string nama;
     void tampilNama(){
-        cout << "Namanya adalah " << Nama << endl;
+        cout << "Namanya adalah " << nama << endl;
     }
 };
-
-class staff {
+class Staf{
     public:
     int nidn;
 };
-int main(){
+int main (){
     Dosen ds;
     ds.nama = "Giga";
     ds.tampilNama();
@@ -40,6 +40,4 @@ int main(){
     c = &b;
     cout << "alamat memori c = " << c << endl;
     cout << "cetak c = " << *c << endl;
-
-
 }
