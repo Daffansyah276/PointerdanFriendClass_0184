@@ -8,7 +8,12 @@ class orang;
 private;
     string nama;
 
-public:
+    public:
     void setNama(string pNama);
     friend class siswa;
+};
+
+class siswa 
+{
+    private:
 };
